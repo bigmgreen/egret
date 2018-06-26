@@ -3,8 +3,8 @@
 	<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x43c8d8" strokeColor="0x3f3f3f" locked="true"/>
 	<e:Image width="100%" height="100%" source="bg_jpg" horizontalCenter="0" verticalCenter="0" alpha="0.3" locked="true"/>
 	<e:Image source="egret_icon_png" left="0" top="0" locked="true"/>
-	<e:Group width="600" height="700" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
-		<e:Image width="20" height="20" horizontalCenter="0" top="100"/>
+	<e:Group width="600" height="860" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-55">
+		<e:Image id="mark" alpha="0.6" source="" top="0" horizontalCenter="0"/>
 		<e:Group width="100%" horizontalCenter="0" bottom="0">
 			<e:Group x="2" y="15">
 				<e:Rect  id="item_1_rect" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x29b552" fillAlpha="1" ellipseWidth="100"/>
@@ -19,7 +19,7 @@
 				<e:Label id="item_3" text="奔池" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" size="50" touchEnabled="false"/>
 			</e:Group>
 			<e:Group x="77" y="45">
-				<e:Rect  id="item_4_rect" width="100%" height="100%" fillColor="0xeae327" horizontalCenter="0" verticalCenter="0" ellipseWidth="100"/>
+				<e:Rect  id="item_4_rect" width="100%" height="100%" fillColor="0xeae327" horizontalCenter="0" verticalCenter="0"  ellipseWidth="100"/>
 				<e:Label id="item_4" text="夲池" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" size="50" touchEnabled="false"/>
 			</e:Group>
 			<e:layout>
@@ -27,4 +27,5 @@
 			</e:layout>
 		</e:Group>
 	</e:Group>
+	<e:Label id="score" text="" y="88" right="78" textAlign="right" size="50" visible="false"/>
 </e:Skin>

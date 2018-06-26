@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,asdmd_jpg,bc_jpg,bj_jpg,bl_jpg,bm_jpg,bsj_jpg,byd_jpg,ft_jpg,jb_jpg,knsk_jpg,ste_jpg,xl_jpg,ym_jpg,zt_jpg",
 			"name": "preload"
 		}
 	],
@@ -132,9 +132,79 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"name": "description_json",
+			"url": "config/description.json",
 			"type": "json",
-			"url": "config/description.json"
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Game/asdmd.jpg",
+			"type": "image",
+			"name": "asdmd_jpg"
+		},
+		{
+			"url": "assets/Game/bc.jpg",
+			"type": "image",
+			"name": "bc_jpg"
+		},
+		{
+			"url": "assets/Game/bj.jpg",
+			"type": "image",
+			"name": "bj_jpg"
+		},
+		{
+			"url": "assets/Game/bl.jpg",
+			"type": "image",
+			"name": "bl_jpg"
+		},
+		{
+			"url": "assets/Game/bm.jpg",
+			"type": "image",
+			"name": "bm_jpg"
+		},
+		{
+			"url": "assets/Game/bsj.jpg",
+			"type": "image",
+			"name": "bsj_jpg"
+		},
+		{
+			"url": "assets/Game/byd.jpg",
+			"type": "image",
+			"name": "byd_jpg"
+		},
+		{
+			"url": "assets/Game/ft.jpg",
+			"type": "image",
+			"name": "ft_jpg"
+		},
+		{
+			"url": "assets/Game/jb.jpg",
+			"type": "image",
+			"name": "jb_jpg"
+		},
+		{
+			"url": "assets/Game/knsk.jpg",
+			"type": "image",
+			"name": "knsk_jpg"
+		},
+		{
+			"url": "assets/Game/ste.jpg",
+			"type": "image",
+			"name": "ste_jpg"
+		},
+		{
+			"url": "assets/Game/xl.jpg",
+			"type": "image",
+			"name": "xl_jpg"
+		},
+		{
+			"url": "assets/Game/ym.jpg",
+			"type": "image",
+			"name": "ym_jpg"
+		},
+		{
+			"url": "assets/Game/zt.jpg",
+			"type": "image",
+			"name": "zt_jpg"
 		}
 	]
 }
